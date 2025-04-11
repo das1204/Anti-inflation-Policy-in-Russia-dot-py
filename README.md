@@ -1,9 +1,35 @@
-![main_web](./img/Neko_Tyan_Linear_Algebra_Kostrikin.png)
-
-
 # Anti-inflation Policy in Russia
 
+<img src="./img/Neko_Tyan_Linear_Algebra_Kostrikin.png" width="500" alt="Neko_Tyan_Linear_Algebra_Kostrikin">
 
+<!--Установка-->
+## Установка
+У вас должны быть установлены [зависимости проекта](https://github.com/das1204/A-test-assignment-for-the-DDPP#зависимости)
+
+1. Клонирование репозитория 
+
+```git clone https://github.com/das1204/Anti-inflation-Policy-in-Russia-dot-py.git```
+
+2. Переход в директорию A-test-assignment-for-the-DDPP
+
+```cd Anti-inflation-Policy-in-Russia-dot-py```
+
+3. Установка зависимостей
+
+```pip3 install -r requirements.txt```
+
+4. Запуск скрипта для демонстрации работы
+
+```python3 app.py```
+
+<!--зависимости-->
+## Зависимости
+Эта программа зависит от интепретатора Python версии 3.9 или выше.
+
+Про MATLAB спршивайте [@youarenadin](https://github.com/youarenadin) 
+
+<!--Логика работы-->
+## Алгоритм
 Этот код использовался для построения контрфактических симуляций и условного прогноза (conditional forecast).
 
 
