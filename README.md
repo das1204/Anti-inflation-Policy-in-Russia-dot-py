@@ -10,7 +10,7 @@
 
 ```git clone https://github.com/das1204/Anti-inflation-Policy-in-Russia-dot-py.git```
 
-2. Переход в директорию A-test-assignment-for-the-DDPP
+2. Переход в директорию Anti-inflation-Policy-in-Russia-dot-py
 
 ```cd Anti-inflation-Policy-in-Russia-dot-py```
 
