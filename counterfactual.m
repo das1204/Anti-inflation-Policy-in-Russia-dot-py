@@ -150,11 +150,15 @@ plot(quarters, actual_p, 'k', 'LineWidth', 1.5);          % фактическа
 % Оформление
 title('Инфляция, QoQ: фактическая vs контрфактическая (КС = 7,5% с 3 квартала 2023 г.)');
 xlabel('Квартал'); ylabel('Инфляция (%)');
-legend('Контрфакт (КС = 7,5%)', ...
-       '68% ДИ: нижняя', '68% ДИ: верхняя', 'Фактическая');
+legend('Контрфакт (КС = 7,5%)', '68% ДИ: нижняя', '68% ДИ: верхняя', 'Фактическая');
 grid on; box on;
 xlim([quarters(1) quarters(end)]);
 
+% #####################################################################################################
+%
+%                                            ИХ ВИЛЬ НИХТ!
+%
+% #####################################################################################################
 
 %% 2) Нулевые шоки ДКП
 
@@ -221,7 +225,7 @@ end
 cf_zeroMP_i = squeeze(CF_zeroMP(:,:,I));
 cf_zeroMP_p = squeeze(CF_zeroMP(:,:,P));
 cf_zeroMP_y = squeeze(CF_zeroMP(:,:,Y));
- 
+
 %% Строим графики. Инфляция
 
 p_median_zero = median(cf_zeroMP_p, 2);
@@ -359,7 +363,7 @@ for i = 1:n_iter
     CF_forecast(:,i,:) = Y_temp;
 end
 
-    
+
 %% Анализируем
 
 cf_forecast_i = squeeze(CF_forecast(:,:,I));
@@ -793,8 +797,3 @@ end
 
 cf_forecast_FPAD_cons_i = squeeze(CF_forecast_FPAD_cons(:,:,I));
 cf_forecast_FPAD_cons_p = squeeze(CF_forecast_FPAD_cons(:,:,P));
-
-
-
-
-
