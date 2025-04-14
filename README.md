@@ -1,5 +1,5 @@
 # Anti-inflation Policy in Russia
-<img src="./img/Neko_Tyan_Linear_Algebra_Kostrikin.png" width="500" alt="Neko_Tyan_Linear_Algebra_Kostrikin">
+<img src="https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/master/Math/Neko_Tyan_Linear_Algebra_Kostrikin.png" width="500" alt="Neko_Tyan_Linear_Algebra_Kostrikin">
 
 <!--Установка-->
 ## Установка
@@ -43,26 +43,26 @@ I. На их основе мы можем построить 1000 контрфа
 
 1) если бы ключевая ставка была зафиксирована на уровне 7,5% с 2023к3;
 
-![I_1](./img/I_1.png)
+![I_КА_1_Фиксированная_ключевая_ставка](./charts/I_КА_1_Фиксированная_ключевая_ставка.png)
 
 2) если бы шоки ДКП были равны 0 с 2023к3 (интерпретация: ключевая ставка по Тейлору).
 
-![I_2i](./img/I_2i.png)
+![I_КА_2_Нулевые_шоки_ДКП_Инфляция](./charts/I_КА_2_Нулевые_шоки_ДКП_Инфляция.png)
 
 
 II. Далее строится условный прогноз по 3 сценариям:
 
 1) все шоки = 0, шоки ДКП пересчитываются;
 
-![II_1](./img/II_1.png)
+![II_1](./charts/II_1.png)
 
 2) все шоки = 0, шоки ДКП пересчитываются, бюджетные шоки = среднее арифметическое за 2024 год (для каждого семпла);
 
-![II_2](./img/II_2.png)
+![II_2](./charts/II_2.png)
 
 3) шок предложения = 0, шоки ДКП пересчитываются, бюджетные шоки и шоки частного спроса = среднему арифметическому за 2024 год (для каждого семпла).
 
-![II_3](./img/II_3.png)
+![II_3](./charts/II_3.png)
 
 
 ### Результаты
