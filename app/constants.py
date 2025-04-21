@@ -23,6 +23,8 @@ A0INV_B = pd.read_excel(DATA_PATH + "struct_irf_record for B.xlsx", header=None)
 ACTUAL_P = pd.read_excel(DATA_PATH + 'actual_p.xlsx', header=None)[0].tolist()
 ACTUAL_I = pd.read_excel(DATA_PATH + 'actual_i.xlsx', header=None)[0].tolist()
 
+POIL_FORECAST = pd.read_excel(DATA_PATH + "poil_forecast.xlsx", header=None)[0].tolist()
+
 # Задаем параметры модели
 T = X_MAT.shape[0]
 N_ITER = BETA.shape[1]
@@ -38,6 +40,10 @@ B = 3
 T_FIX = 73
 I_TARGET = 7.5
 LAST_POINT = T - T_FIX + 1
+
+H = 8  # 2 года (8 кварталов)
+T_FORECAST = T + H  # 78 + 8 = 86 периодов
+I_TARGET_CONDITIONAL = 21
 
 QUARTERS = [START_DATE + timedelta(days=91.25 * i) for i in range(T)]
 
