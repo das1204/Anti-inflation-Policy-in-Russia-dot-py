@@ -6,15 +6,17 @@ from datetime import datetime, timedelta
 DATA_PATH = "../data/"
 SAVE_PATH = "../charts/"
 
-START_DATE = datetime(2005, 7, 1)
-
 # Загружаем данные
 BETA = pd.read_excel(DATA_PATH + "beta_gibbs.xlsx", header=None).values
+
 X_MAT = pd.read_excel(DATA_PATH + "X.xlsx", header=None).values
-SHOCKS_AS = pd.read_excel(DATA_PATH + "ETA_record AS.xlsx", header=None).values
+
+SHOCKS_AS          = pd.read_excel(DATA_PATH + "ETA_record AS.xlsx",        header=None).values
 SHOCKS_PRIVATED_AD = pd.read_excel(DATA_PATH + "ETA_record PrivateAD.xlsx", header=None).values
+
 SHOCKS_MP = pd.read_excel(DATA_PATH + "ETA_record MP.xlsx", header=None).values
 SHOCKS_FP = pd.read_excel(DATA_PATH + "ETA_record FP.xlsx", header=None).values
+
 A0INV_P = pd.read_excel(DATA_PATH + "struct_irf_record for p.xlsx", header=None).values
 A0INV_Y = pd.read_excel(DATA_PATH + "struct_irf_record for Y.xlsx", header=None).values
 A0INV_I = pd.read_excel(DATA_PATH + "struct_irf_record for i.xlsx", header=None).values
@@ -23,7 +25,7 @@ A0INV_B = pd.read_excel(DATA_PATH + "struct_irf_record for B.xlsx", header=None)
 ACTUAL_P = pd.read_excel(DATA_PATH + 'actual_p.xlsx', header=None)[0].tolist()
 ACTUAL_I = pd.read_excel(DATA_PATH + 'actual_i.xlsx', header=None)[0].tolist()
 
-POIL_FORECAST = pd.read_excel(DATA_PATH + "poil_forecast.xlsx", header=None)[0].tolist()
+P_OIL_FORECAST = pd.read_excel(DATA_PATH + "poil_forecast.xlsx", header=None)[0].tolist()
 
 # Задаем параметры модели
 T = X_MAT.shape[0]
@@ -45,7 +47,4 @@ H = 8  # 2 года (8 кварталов)
 T_FORECAST = T + H  # 78 + 8 = 86 периодов
 I_TARGET_CONDITIONAL = 21
 
-QUARTERS = [START_DATE + timedelta(days=91.25 * i) for i in range(T)]
-
-# Готовим трехмерный объект для хранения 1000 контрфактических итераций по 4 переменным
-CF = np.zeros((T, N_ITER, N_VARS))
+QUARTERS = [datetime(2005, 7, 1) + timedelta(days=91.25 * i) for i in range(T)]
