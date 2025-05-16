@@ -322,7 +322,6 @@ for i = 1:n_iter
         cf_eps_mp_forecast(i,t) = shocks_mp(t);
     end
 
-
     % 2. Прогнозная часть (t = 79:86)
     for t = T+1:T_forecast
 
@@ -354,7 +353,6 @@ for i = 1:n_iter
         Y_temp(t,B) = B_b' * x_t + A0inv_full(B,:) * eps_t;
 
         cf_eps_mp_forecast(i,t) = eps_mp;
-
     end
 
     CF_forecast(:,i,:) = Y_temp;
