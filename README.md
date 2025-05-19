@@ -1,4 +1,6 @@
 # Anti-inflation Policy in Russia
+
+# __!!! ИТС ДЖАСТ ФО ФАН РЕАЛИЗАЦИЯ РАБОТЫ [@youarenadin](https://github.com/youarenadin) !!!__
 <img src="https://raw.githubusercontent.com/cat-milk/Anime-Girls-Holding-Programming-Books/master/Math/Neko_Tyan_Linear_Algebra_Kostrikin.png" width="500" alt="Neko_Tyan_Linear_Algebra_Kostrikin">
 
 <!--Установка-->
@@ -48,32 +50,39 @@ __1)__ Фиксированная ключевая ставка (i) = 7,5;
 __2)__ Нулевые шоки ДКП (интерпретация: ключевая ставка по Тейлору).
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="./charts/I_КА_2_Нулевые_шоки_ДКП_Инфляция.png" width="400" />
-  <img src="./charts/I_КА_2_Нулевые_шоки_ДКП_Ставка.png" width="400" />
+  <img src="./charts/I_КА_2_Нулевые_шоки_ДКП_Инфляция.png" width="425" />
+  <img src="./charts/I_КА_2_Нулевые_шоки_ДКП_Ставка.png" width="425" />
 </div>
 
 __II. УСЛОВНЫЙ ПРОГНОЗ:__
 
-__1)__ Условный прогноз: ставка = 21 с 2025Q1, все шоки = 0, кроме MP;
+__1)__ Ставка = 21 с 2025Q1, все шоки = 0, кроме MP;
 
 ![II_1](./charts/II_УП_1_Инфляция.png)
 
-__1.a)__ Cтавка = консенсус либо ZCYC, КС = 21%, все шоки = 0, кроме MP;
+__1.a.1)__ Cтавка = ZCYC, все шоки = 0, кроме MP;
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="./charts/II_УП_1а_Инфляция.png" width="400" />
-  <img src="./charts/II_УП_1а_Ставка.png" width="400" />
+  <img src="./charts/II_УП_1а1_Инфляция.png" width="425" />
+  <img src="./charts/II_УП_1а1_Ставка.png" width="425" />
 </div>
 
-__2)__ Ставка = 21 с 2025Q1, шоки спроса;
+__1.a.2)__ Cтавка = консенсус, все шоки = 0, кроме MP;
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="./charts/II_УП_1а2_Инфляция.png" width="425" />
+  <img src="./charts/II_УП_1а2_Ставка.png" width="425" />
+</div>
+
+__2)__ Ставка = 21 с 2025Q1, все шоки = 0, кроме спроса;
 
 ![II_2](./charts/II_УП_2_Спрос.png)
 
 __2.а)__ Ставка = консенсус либо ZCYC, шоки спроса;
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="./charts/II_УП_2а_Инфляция.png" width="400" />
-  <img src="./charts/II_УП_2а_Ставка.png" width="400" />
+  <img src="./charts/II_УП_2а_Инфляция.png" width="425" />
+  <img src="./charts/II_УП_2а_Ставка.png" width="425" />
 </div>
 
 __3-4)__ Ставка = 21 с 2025Q3, дефицит = Минфин / опрос БР, шок AS = 0, шоки PrivateAD зафиксированы на уровне среднеквартальных 2024 года;
