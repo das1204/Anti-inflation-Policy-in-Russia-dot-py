@@ -62,26 +62,33 @@ __1)__ Ставка = 21 с 2025Q1, все шоки = 0, кроме MP;
 __1.a.1)__ Cтавка = ZCYC, все шоки = 0, кроме MP;
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="./charts/II_УП_1а1_Инфляция.png" width="420" />
-  <img src="./charts/II_УП_1а1_Ставка.png" width="420" />
+  <img src="./charts/II_УП_1а1_Инфляция.png" width="415" />
+  <img src="./charts/II_УП_1а1_Ставка.png" width="415" />
 </div>
 
 __1.a.2)__ Cтавка = консенсус, все шоки = 0, кроме MP;
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="./charts/II_УП_1а2_Инфляция.png" width="420" />
-  <img src="./charts/II_УП_1а2_Ставка.png" width="420" />
+  <img src="./charts/II_УП_1а2_Инфляция.png" width="415" />
+  <img src="./charts/II_УП_1а2_Ставка.png" width="415" />
 </div>
 
 __2)__ Ставка = 21 с 2025Q1, все шоки = 0, кроме спроса;
 
 ![II_2](./charts/II_УП_2_Спрос.png)
 
-__2.а)__ Ставка = консенсус либо ZCYC, шоки спроса;
+__2.а.1)__ Ставка = ZCYC, все шоки = 0, кроме спроса;
 
 <div style="display: flex; justify-content: center; gap: 20px;">
-  <img src="./charts/II_УП_2а_Инфляция.png" width="420" />
-  <img src="./charts/II_УП_2а_Ставка.png" width="420" />
+  <img src="./charts/II_УП_2а1_Инфляция.png" width="415" />
+  <img src="./charts/II_УП_2а1_Ставка.png" width="415" />
+</div>
+
+__2.a.2)__ Cтавка = консенсус, все шоки = 0, кроме спроса;
+
+<div style="display: flex; justify-content: center; gap: 20px;">
+  <img src="./charts/II_УП_2а2_Инфляция.png" width="415" />
+  <img src="./charts/II_УП_2а2_Ставка.png" width="415" />
 </div>
 
 __3-4)__ Ставка = 21 с 2025Q3, дефицит = Минфин / опрос БР, шок AS = 0, шоки PrivateAD зафиксированы на уровне среднеквартальных 2024 года;
